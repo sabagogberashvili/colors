@@ -4,21 +4,39 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    text-align: center; 
+}
+
 .same-box {
     width: 680px;
     height: 510px;
     border: 3px solid rgb(0, 255, 0);
-    margin: 20px auto;
-    padding: 30px 40px;
-    background-image: linear-gradient(to left top, rgb(57, 167, 186), pink, #C9AFF3);
+    padding: 40px 0;
+    background: white;
+    box-shadow: 12px -12px 25px rgba(5, 99, 128, 0.8);
+    margin: 0 auto;
+    text-align: center;
 }
 
-.same-box h2 {
-    margin-bottom: 20px;
+h2 {
+    color: red;
+    margin-bottom: 30px;
+    font-size: 26px;
+    text-decoration: line-through;
+}
+
+h2:hover {
+    text-decoration: underline overline;
+    font-size: 30px;
+    color: darkred;
 }
 
 img {
     width: 150px;
     height: 300px;
     border: 5px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
